@@ -1,0 +1,193 @@
+(footprint "ANT_MIFA_TI_AN043"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.3 2.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "96895647-af17-4f62-aa1f-f229fedcf96d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ANT_MIFA_TI_AN043"
+		(at 0 6.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0d0f7b3-d04f-4804-a653-4c74dbffa26a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4768c48b-156f-4855-bac0-0fc617acc5cf")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "67cb1463-18f0-40aa-9817-76806f0913ca")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(xy 2.44998 2.950008) (xy 4.449858 2.950008) (xy 4.449858 0.309859) (xy 7.149951 0.309859) (xy 7.149951 2.950008)
+			(xy 9.14983 2.950008) (xy 9.14983 0.309859) (xy 11.849923 0.309859) (xy 11.849923 4.749898) (xy 11.350212 4.749898)
+			(xy 11.350212 0.810087) (xy 9.650058 0.810087) (xy 9.650058 3.450236) (xy 6.65024 3.450236) (xy 6.65024 0.810087)
+			(xy 4.950086 0.810087) (xy 4.950086 3.450236) (xy 1.949752 3.450236) (xy 1.949752 0.810087) (xy 0.250114 0.810087)
+			(xy 0.250114 4.700228) (xy -0.250114 4.700228) (xy -0.250114 0.810087) (xy -1.650027 0.810087) (xy -1.650027 4.700228)
+			(xy -2.550232 4.700228) (xy -2.550232 0.309859) (xy 2.44998 0.309859)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(uuid "a3686abc-25e6-4e40-878b-45f7311e70d4")
+	)
+	(fp_line
+		(start -4 0)
+		(end 13 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "175d2d3e-f65f-4647-8633-129449665005")
+	)
+	(fp_line
+		(start -4 5.2)
+		(end 13 5.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "674a52d7-0bc3-41c4-8c39-49892f92ac5a")
+	)
+	(fp_line
+		(start -3.05 5.2)
+		(end -3.05 -0.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "03d355f5-3178-444c-b7af-ebf9b0895196")
+	)
+	(fp_line
+		(start 12.15 -0.8)
+		(end 12.15 5.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "858d2500-ac7c-4808-a1bf-3461db6c4d90")
+	)
+	(pad "ANT" smd rect
+		(at 0 4.95)
+		(size 0.5 0.5)
+		(layers "F.Cu")
+		(uuid "fea6145e-cede-44b3-bd68-4dadb68931e7")
+	)
+	(pad "GND" smd rect
+		(at -2.1 4.95)
+		(size 0.9 0.5)
+		(layers "F.Cu")
+		(uuid "8133d0c4-bf5c-4b0b-a56c-0680dcbfd704")
+	)
+	(zone
+		(layer "F.Cu")
+		(uuid "3f43e703-4e7d-46b1-9d9d-5d00e5f40f0d")
+		(hatch edge 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.254)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 12.15 5.2) (xy 0.250114 5.200228) (xy 0.25 4.7) (xy -0.25 4.7) (xy -0.25 5.2) (xy -1.65 5.2)
+				(xy -1.65 4.7) (xy -2.55 4.7) (xy -2.55 5.2) (xy -3.05 5.2) (xy -3.05 0) (xy 12.15 0)
+			)
+		)
+	)
+	(zone
+		(layers "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu"
+			"In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+			"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+			"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+			"In30.Cu"
+		)
+		(uuid "9223f4ab-47ae-460d-9b07-5db8bee406a6")
+		(hatch edge 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.254)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 12.15 5.2) (xy 0.250114 5.200228) (xy -0.25 5.2) (xy -1.65 5.2) (xy -2.55 5.2) (xy -3.05 5.2)
+				(xy -3.05 0) (xy 12.15 0)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
