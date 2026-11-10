@@ -924,6 +924,207 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -2720,6 +2921,12 @@
 		(uuid "a9210551-8e37-4dc9-acb5-e7575133e6e6")
 	)
 	(junction
+		(at 212.09 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac6514e3-2d87-416d-a13a-2b68e21cfd05")
+	)
+	(junction
 		(at 259.08 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2786,12 +2993,16 @@
 		(uuid "f6751984-eff6-46a7-8bf4-fc0280710d6c")
 	)
 	(no_connect
-		(at 255.27 87.63)
-		(uuid "b74f67bd-e939-4fb6-8d9f-0cb1b630fb2d")
+		(at 271.78 64.77)
+		(uuid "852fcb8f-9e41-49a3-b21d-516a0578d1a3")
 	)
 	(no_connect
-		(at 264.16 121.92)
-		(uuid "c4d4c244-ff6c-420b-9a76-856e3cf8dc8a")
+		(at 271.78 60.96)
+		(uuid "8c2e19c6-aa4f-49f4-b0ff-49a29a46fc0d")
+	)
+	(no_connect
+		(at 255.27 87.63)
+		(uuid "b74f67bd-e939-4fb6-8d9f-0cb1b630fb2d")
 	)
 	(wire
 		(pts
@@ -2962,6 +3173,16 @@
 			(type default)
 		)
 		(uuid "157b7189-39ba-41a5-b57d-9b90373bc4eb")
+	)
+	(wire
+		(pts
+			(xy 260.35 60.96) (xy 271.78 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "158d3670-723d-48ba-bffe-43f36036621a")
 	)
 	(wire
 		(pts
@@ -3195,7 +3416,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 140.97) (xy 222.25 140.97)
+			(xy 204.47 140.97) (xy 212.09 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3222,6 +3443,16 @@
 			(type default)
 		)
 		(uuid "4e1b4972-27c5-4377-9686-39bbd43767ec")
+	)
+	(wire
+		(pts
+			(xy 260.35 64.77) (xy 271.78 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50ee1f9b-13c6-45cc-92db-76176616c109")
 	)
 	(wire
 		(pts
@@ -3915,6 +4146,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 140.97) (xy 222.25 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e605b743-252a-4fa5-8393-5e4341849fd4")
+	)
+	(wire
+		(pts
 			(xy 220.98 25.4) (xy 220.98 30.48)
 		)
 		(stroke
@@ -4254,6 +4495,16 @@
 		(uuid "2285b227-56d9-4fd5-bf7d-02923d6d23a7")
 	)
 	(label "GPIO14"
+		(at 260.35 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2590d6c2-6384-4023-9bf7-dc2a06e2fab4")
+	)
+	(label "GPIO14"
 		(at 58.42 73.66 180)
 		(effects
 			(font
@@ -4272,6 +4523,16 @@
 			(justify right bottom)
 		)
 		(uuid "27efd2af-74f6-46fa-a200-712e1bd5fa04")
+	)
+	(label "GPIO13"
+		(at 260.35 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "27fe28ea-584c-4756-9f25-12ce794d3b4e")
 	)
 	(label "VDD3P3_1"
 		(at 93.98 40.64 180)
@@ -5428,6 +5689,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 212.09 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "200da3a8-ec08-4d3b-8ffb-5a5fd96caadb")
+		(property "Reference" "R9"
+			(at 214.884 130.81 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 209.296 130.302 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 210.312 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 212.09 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dd7ed217-e02d-4c0d-b832-80f4a3bb983a")
+		)
+		(pin "2"
+			(uuid "dfa840ef-f7cc-4c45-bcc1-1d9147e4bc16")
+		)
+		(instances
+			(project "wifi"
+				(path "/cab5c3ac-9821-4913-9e7a-554539370212"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Espressif:ESP32-H2")
 		(at 106.68 76.2 0)
 		(unit 1)
@@ -6077,6 +6419,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 248.92 121.92 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37191d6f-4acc-4d29-aabd-ea528b609471")
+		(property "Reference" "#PWR028"
+			(at 242.57 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 245.11 121.9199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 248.92 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "610ab3a3-0930-4d64-8abd-820120f35a06")
+		)
+		(instances
+			(project "wifi"
+				(path "/cab5c3ac-9821-4913-9e7a-554539370212"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 157.48 35.56 270)
 		(unit 1)
@@ -6336,6 +6757,87 @@
 			(project "wifi"
 				(path "/cab5c3ac-9821-4913-9e7a-554539370212"
 					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 252.73 121.92 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "428163fa-a2ab-44e6-b30d-4d647faa6738")
+		(property "Reference" "R8"
+			(at 254 119.126 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 253.492 124.714 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 252.73 123.698 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 252.73 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "76a49cf5-4b62-4d1d-9af3-d82c8a7e748a")
+		)
+		(pin "2"
+			(uuid "2834e7b5-5acd-476d-8e34-dbf7388949a6")
+		)
+		(instances
+			(project "wifi"
+				(path "/cab5c3ac-9821-4913-9e7a-554539370212"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -9941,6 +10443,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 260.35 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d70614ed-6422-4456-8532-26dfda38e73f")
+		(property "Reference" "D2"
+			(at 258.7625 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USRLED"
+			(at 258.7625 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 260.35 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 260.35 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "894eb1dd-20f6-4db9-9a18-134c25098e94")
+		)
+		(pin "2"
+			(uuid "d15c3f7c-67e9-40c3-97a9-ceeac1f38b7d")
+		)
+		(instances
+			(project "wifi"
+				(path "/cab5c3ac-9821-4913-9e7a-554539370212"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 44.45 44.45 90)
 		(unit 1)
@@ -10093,6 +10686,99 @@
 			(project "wifi"
 				(path "/cab5c3ac-9821-4913-9e7a-554539370212"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 212.09 137.16 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1755333-c651-4a40-bb88-891b18ab5a6d")
+		(property "Reference" "D1"
+			(at 214.63 134.3024 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PWRLED"
+			(at 214.63 136.8424 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 212.09 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 212.09 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "debbd4cf-868d-4448-9b61-bbca8177ccdc")
+		)
+		(pin "2"
+			(uuid "010e9f28-ccad-4929-a3e7-0b34873f7c2c")
+		)
+		(instances
+			(project "wifi"
+				(path "/cab5c3ac-9821-4913-9e7a-554539370212"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -10331,6 +11017,84 @@
 			(project "wifi"
 				(path "/cab5c3ac-9821-4913-9e7a-554539370212"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 212.09 125.73 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f30bfce7-d248-442d-bf1e-b204eb88a032")
+		(property "Reference" "#PWR037"
+			(at 212.09 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 212.09 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 212.09 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "386f67ca-9212-42e0-b4b7-f085f55c735b")
+		)
+		(instances
+			(project "wifi"
+				(path "/cab5c3ac-9821-4913-9e7a-554539370212"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
