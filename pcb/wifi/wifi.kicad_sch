@@ -5710,7 +5710,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 209.296 130.302 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6784,7 +6784,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 253.492 124.714 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9563,7 +9563,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10uF"
 			(at 190.246 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10474,7 +10474,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 260.35 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -10725,7 +10725,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 212.09 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -10885,7 +10885,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10uF"
 			(at 211.836 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10964,7 +10964,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10uF"
 			(at 200.406 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11282,7 +11282,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10uF"
 			(at 210.566 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
