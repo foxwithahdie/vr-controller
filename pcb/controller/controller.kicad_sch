@@ -12745,13 +12745,8 @@
 				)
 			)
 		)
-<<<<<<< HEAD
-		(property "Value" "GND"
-			(at 62.23 143.5099 90)
-=======
 		(property "Value" "10pF"
 			(at 17.78 110.49 0)
->>>>>>> 021f943a7f000241dcff339ef6f5ea3a49ea2c81
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15719,8 +15714,6 @@
 			)
 		)
 	)
-=======
->>>>>>> 021f943a7f000241dcff339ef6f5ea3a49ea2c81
 	(sheet_instances
 		(path "/"
 			(page "1")
