@@ -11207,7 +11207,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10uF"
 			(at 209.296 27.94 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12263,7 +12263,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10uF"
 			(at 188.976 27.94 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12500,8 +12500,13 @@
 				(justify left)
 			)
 		)
+<<<<<<< HEAD
 		(property "Value" "1K"
 			(at 164.084 136.652 90)
+=======
+		(property "Value" "10pF"
+			(at 50.8 110.4899 0)
+>>>>>>> 021f943a7f000241dcff339ef6f5ea3a49ea2c81
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12745,8 +12750,13 @@
 				)
 			)
 		)
+<<<<<<< HEAD
 		(property "Value" "GND"
 			(at 62.23 143.5099 90)
+=======
+		(property "Value" "10pF"
+			(at 17.78 110.49 0)
+>>>>>>> 021f943a7f000241dcff339ef6f5ea3a49ea2c81
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13224,6 +13234,88 @@
 			(project "controller"
 				(path "/1c4a09c1-9e3a-4d0d-a341-de0f09c1f5cf"
 					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 24.13 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af1719c7-db17-4a97-8e02-d2b6ba5871d3")
+		(property "Reference" "L1"
+			(at 25.4 120.6499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "24nH"
+			(at 25.4 123.1899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 24.13 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "76cc68dd-568d-4fe1-8d7d-762a019b5966")
+		)
+		(pin "2"
+			(uuid "bfb5f39a-5d2e-479f-a29e-02c59690ab3a")
+		)
+		(instances
+			(project "controller"
+				(path "/1c4a09c1-9e3a-4d0d-a341-de0f09c1f5cf"
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -14127,7 +14219,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10uF"
 			(at 199.136 27.94 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15230,6 +15322,7 @@
 			)
 		)
 	)
+<<<<<<< HEAD
 	(symbol
 		(lib_id "power:GND")
 		(at 209.55 101.6 90)
@@ -15631,6 +15724,8 @@
 			)
 		)
 	)
+=======
+>>>>>>> 021f943a7f000241dcff339ef6f5ea3a49ea2c81
 	(sheet_instances
 		(path "/"
 			(page "1")
