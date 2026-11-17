@@ -12500,13 +12500,10 @@
 				(justify left)
 			)
 		)
-<<<<<<< HEAD
 		(property "Value" "1K"
 			(at 164.084 136.652 90)
-=======
 		(property "Value" "10pF"
 			(at 50.8 110.4899 0)
->>>>>>> 021f943a7f000241dcff339ef6f5ea3a49ea2c81
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
