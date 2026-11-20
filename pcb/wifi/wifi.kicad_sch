@@ -2160,24 +2160,6 @@
 				)
 			)
 			(symbol "AN043_1_1"
-				(pin bidirectional line
-					(at -2.54 -3.81 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 2.54 -3.81 90)
 					(length 2.54)
@@ -2188,7 +2170,25 @@
 							)
 						)
 					)
-					(number ""
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -3.81 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4704,7 +4704,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 53.0352 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -5692,7 +5692,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
 			(at 38.1 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -6675,7 +6675,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 142.24 59.182 90)
 			(hide yes)
 			(show_name no)
@@ -7069,7 +7069,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
 			(at 25.4 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -7229,7 +7229,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 245.11 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -7240,7 +7240,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/aratas-formerly-omron-components/B3U-1000P/1534338?s=N4IgTCBcDaIMoHUCMAGMKDCAVAtAOQBEQBdAXyA"
 			(at 245.11 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -7546,7 +7546,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
 			(at 59.69 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -8495,7 +8495,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 154.94 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -8730,7 +8730,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 264.16 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -8741,7 +8741,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/aratas-formerly-omron-components/B3U-1000P/1534338?s=N4IgTCBcDaIMoHUCMAGMKDCAVAtAOQBEQBdAXyA"
 			(at 264.16 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -9551,7 +9551,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 26.3652 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -9870,7 +9870,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 154.94 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -10027,7 +10027,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 49.2252 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -10197,7 +10197,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 48.26 43.4848 0)
 			(hide yes)
 			(show_name no)
@@ -10482,10 +10482,10 @@
 				)
 			)
 		)
-		(pin ""
+		(pin "2"
 			(uuid "f6860959-3c4b-481c-bcf3-a446cb6b9fbc")
 		)
-		(pin ""
+		(pin "1"
 			(uuid "4d7b2b67-91c0-43aa-8272-f127c994138e")
 		)
 		(instances
@@ -10528,7 +10528,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 197.1548 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -10767,7 +10767,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 68.2752 54.61 0)
 			(hide yes)
 			(show_name no)
