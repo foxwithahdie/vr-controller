@@ -3866,7 +3866,7 @@
 			)
 		)
 	)
-	(footprint "Espressif:QFN-32-1EP_4x4mm_P0.4mm_EP2.9x2.9mm"
+	(footprint "esp_wifi:QFN-32-1EP_4x4mm_P0.4mm_EP2.9x2.9mm"
 		(layer "F.Cu")
 		(uuid "85c010aa-4ec4-49a7-86af-17458136973b")
 		(at 122.9548 82.8136)
@@ -3919,6 +3919,15 @@
 		(path "/219fd395-c375-48ec-a587-e17d73ccf275")
 		(sheetname "/")
 		(sheetfile "wifi.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "32" "17" "15" "16" "28" "29" "5" "6" "7" "8" "2" "31" "1" "27"
+					"30" "18" "19" "33" "9" "20" "23" "22" "26" "25" "3" "4" "10" "11" "12"
+					"13" "14" "21" "24"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4091,6 +4100,34 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(pad "" smd roundrect
+			(at -0.725 -0.725)
+			(size 1.17 1.17)
+			(layers "F.Paste")
+			(roundrect_rratio 0.213675)
+			(uuid "6cd94d06-a7a4-4b2c-9f99-49775613b836")
+		)
+		(pad "" smd roundrect
+			(at -0.725 0.725)
+			(size 1.17 1.17)
+			(layers "F.Paste")
+			(roundrect_rratio 0.213675)
+			(uuid "08cd4bf6-d8e7-4161-a455-94b34e04517d")
+		)
+		(pad "" smd roundrect
+			(at 0.725 -0.725)
+			(size 1.17 1.17)
+			(layers "F.Paste")
+			(roundrect_rratio 0.213675)
+			(uuid "b998c834-86bc-4415-bf2b-4db6d0329af7")
+		)
+		(pad "" smd roundrect
+			(at 0.725 0.725)
+			(size 1.17 1.17)
+			(layers "F.Paste")
+			(roundrect_rratio 0.213675)
+			(uuid "71ab5d3f-d373-4ade-bf7b-33d2c8435e5c")
 		)
 		(pad "1" smd roundrect
 			(at -2 -1.4)
@@ -4412,42 +4449,17 @@
 			(pintype "bidirectional")
 			(uuid "a42b1f84-e2fe-46c1-8abe-d42a4820dea6")
 		)
-		(pad "33" smd roundrect
-			(at -0.725 -0.725)
-			(size 1.17 1.17)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.213675)
-			(net "GND")
-			(uuid "8e4b9318-49bd-41ba-a07c-da3a9c3b95b2")
-		)
-		(pad "33" smd roundrect
-			(at -0.725 0.725)
-			(size 1.17 1.17)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.213675)
-			(net "GND")
-			(uuid "08cd4bf6-d8e7-4161-a455-94b34e04517d")
-		)
-		(pad "33" smd roundrect
-			(at 0.725 -0.725)
-			(size 1.17 1.17)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.213675)
-			(net "GND")
-			(uuid "b998c834-86bc-4415-bf2b-4db6d0329af7")
-		)
-		(pad "33" smd roundrect
-			(at 0.725 0.725)
-			(size 1.17 1.17)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.213675)
+		(pad "33" smd rect
+			(at 0 0)
+			(size 2.8 2.8)
+			(layers "F.Cu" "F.Mask")
 			(net "GND")
 			(pinfunction "GND_33")
 			(pintype "power_in")
-			(uuid "71ab5d3f-d373-4ade-bf7b-33d2c8435e5c")
+			(uuid "8e4b9318-49bd-41ba-a07c-da3a9c3b95b2")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-32-1EP_4x4mm_P0.4mm_EP2.9x2.9mm.step"
+		(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-32-1EP_4x4mm_P0.4mm_EP2.9x2.9mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)

@@ -5281,7 +5281,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Espressif:QFN-32-1EP_4x4mm_P0.4mm_EP2.9x2.9mm"
+		(property "Footprint" "esp_wifi:QFN-32-1EP_4x4mm_P0.4mm_EP2.9x2.9mm"
 			(at 106.68 115.57 0)
 			(hide yes)
 			(show_name no)
