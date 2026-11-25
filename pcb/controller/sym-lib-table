@@ -3,4 +3,6 @@
 	(lib (name "Espressif") (type "KiCad") (uri "${KICAD10_SYMBOL_DIR}/Espressif.kicad_sym") (options "") (descr ""))
 	(lib (name "Custom") (type "") (uri "${KIPRJMOD}/custom_footprints.pretty") (options "") (descr "") (disabled) (hidden))
 	(lib (name "Eclectronics") (type "KiCad") (uri "${KIPRJMOD}/Eclectronics/Eclectronics.kicad_sym") (options "") (descr ""))
+	(lib (name "TL3340AF160QG") (type "KiCad") (uri "${KIPRJMOD}/Eclectronics/TL3340AF160QG.kicad_sym") (options "") (descr ""))
+	(lib (name "EVQ-Q2K03W") (type "KiCad") (uri "${KIPRJMOD}/Eclectronics/EVQ-Q2K03W.kicad_sym") (options "") (descr ""))
 )
