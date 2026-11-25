@@ -13129,7 +13129,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom_footprints:IND_LQH3NPZ2R2MMEL"
 			(at 147.32 162.56 0)
 			(hide yes)
 			(show_name no)
