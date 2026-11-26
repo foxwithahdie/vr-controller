@@ -172,7 +172,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -184,7 +183,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -196,7 +194,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -520,8 +517,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": {},
-    "netclass_assignments": {},
+    "net_colors": null,
+    "netclass_assignments": null,
     "netclass_patterns": [
       {
         "netclass": "Default",
@@ -670,7 +667,7 @@
         "uuid": "cab5c3ac-9821-4913-9e7a-554539370212"
       }
     ],
-    "used_designators": "#PWR1-38,A1,AE1,C1-17,D1-2,D\\-Pad1,J1-2,L1-3,R1-9,SW1-3,TP1,U1-2,Y1",
+    "used_designators": "#PWR1-38,D1-2,D\\-Pad1,AE1,L1-3,A1,C1-17,J1-2,R1-9,SW1-3,TP1,U1-2,Y1",
     "variants": []
   },
   "sheets": [

@@ -2947,6 +2947,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Inductor L3 might need to be a resistor instead"
+		(exclude_from_sim no)
+		(at 51.308 135.382 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1ca1b335-c022-4852-8e01-3c04feb11d80")
+	)
 	(text "VBAT resistor can be not populated \nif powered by external battery i think"
 		(exclude_from_sim no)
 		(at 77.724 33.02 0)
@@ -3545,7 +3555,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 44.45) (xy 78.74 44.45)
+			(xy 67.31 44.45) (xy 76.2 44.45)
 		)
 		(stroke
 			(width 0.3048)
@@ -3805,6 +3815,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 58.42) (xy 78.74 58.42)
+		)
+		(stroke
+			(width 0.3048)
+			(type default)
+		)
+		(uuid "c41d8317-ce2d-489c-a745-3ee1f106246a")
+	)
+	(wire
+		(pts
 			(xy 245.11 38.1) (xy 240.03 38.1)
 		)
 		(stroke
@@ -3895,7 +3915,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 44.45) (xy 78.74 58.42)
+			(xy 76.2 44.45) (xy 76.2 58.42)
 		)
 		(stroke
 			(width 0.3048)
@@ -6007,7 +6027,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 153.67 36.5252 0)
 			(hide yes)
 			(show_name no)
@@ -6594,7 +6614,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 128.27 36.5252 0)
 			(hide yes)
 			(show_name no)
@@ -7308,7 +7328,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 100.0252 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -8971,7 +8991,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 101.092 36.83 90)
 			(hide yes)
 			(show_name no)
