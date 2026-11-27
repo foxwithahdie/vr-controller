@@ -3755,16 +3755,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 80.01) (xy 241.3 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b97adc37-99c4-48e1-9b33-2842213dbd40")
-	)
-	(wire
-		(pts
 			(xy 78.74 71.12) (xy 58.42 71.12)
 		)
 		(stroke
@@ -3955,6 +3945,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 85.09) (xy 238.76 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dee85b5c-67c6-4d02-8023-bd37c8730f7c")
+	)
+	(wire
+		(pts
 			(xy 58.42 88.9) (xy 78.74 88.9)
 		)
 		(stroke
@@ -3962,6 +3962,16 @@
 			(type default)
 		)
 		(uuid "e0b513dd-c8a7-4c6a-92b7-e4499e6d8d21")
+	)
+	(wire
+		(pts
+			(xy 234.95 82.55) (xy 238.76 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e19a821d-89d6-44f3-8d01-f3940db275f2")
 	)
 	(wire
 		(pts
@@ -3982,16 +3992,6 @@
 			(type default)
 		)
 		(uuid "e399cf4f-2a8d-4cc1-878b-ee03495f1187")
-	)
-	(wire
-		(pts
-			(xy 234.95 77.47) (xy 241.3 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3a72fae-adb0-4ce3-97be-c2e2b1795c13")
 	)
 	(wire
 		(pts
@@ -4223,6 +4223,16 @@
 		)
 		(uuid "271c9b5d-c25e-4817-989e-6d440e628a99")
 	)
+	(label "EN"
+		(at 234.95 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c27d22d-a7c6-418f-95d6-ee3ce3ba46e4")
+	)
 	(label "BOOT"
 		(at 259.08 27.94 180)
 		(effects
@@ -4252,16 +4262,6 @@
 			(justify right bottom)
 		)
 		(uuid "33241dc1-a7f4-4229-a223-e95b4793d48d")
-	)
-	(label "BOOT"
-		(at 234.95 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3d83160b-2bce-4d90-a4c6-fed16daf4ef0")
 	)
 	(label "SPI0_CS"
 		(at 203.2 80.01 180)
@@ -4334,7 +4334,7 @@
 		(uuid "697ae602-8894-4179-b5a4-2b38dbe92e41")
 	)
 	(label "TX"
-		(at 234.95 82.55 0)
+		(at 234.95 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4373,25 +4373,25 @@
 		)
 		(uuid "73713ace-d6e2-4e16-97e1-56aefeaa3a6a")
 	)
-	(label "I2C0_SDA"
-		(at 203.2 92.71 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "85398dbf-3bd4-48ab-a820-10942666f548")
-	)
-	(label "EN"
-		(at 234.95 87.63 0)
+	(label "I2C0_SCL"
+		(at 234.95 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "8e6fda0a-3f0d-4263-a46c-7f1a63448e6e")
+		(uuid "796978c2-2a1b-45ee-96e8-dcdde48cc83e")
+	)
+	(label "LOG"
+		(at 203.2 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7fc0fd89-2f08-4ed2-8cbe-169c57f7e22d")
 	)
 	(label "SPI0_CS"
 		(at 149.86 76.2 0)
@@ -4403,18 +4403,8 @@
 		)
 		(uuid "8fbc93a0-98c8-453d-ae49-911b5281ceb2")
 	)
-	(label "I2C0_SCL"
-		(at 203.2 90.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "928b8666-9ca2-4506-9150-5c2a048a8c94")
-	)
 	(label "RX"
-		(at 234.95 85.09 0)
+		(at 234.95 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4422,6 +4412,16 @@
 			(justify left bottom)
 		)
 		(uuid "97b5a473-0ba6-4509-b841-f2ac439f56c7")
+	)
+	(label "BOOT"
+		(at 203.2 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a011e317-bc1b-4c1c-9cbe-1e736a72c359")
 	)
 	(label "GPIO_2"
 		(at 203.2 82.55 180)
@@ -4473,15 +4473,15 @@
 		)
 		(uuid "d76b7d90-526d-4d90-9e0c-c429922b16c7")
 	)
-	(label "LOG"
-		(at 234.95 92.71 0)
+	(label "I2C0_SDA"
+		(at 234.95 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "e7112960-b30c-4c55-a03c-0287bc6dc75d")
+		(uuid "dd4a5d35-b8ac-4308-931e-d63c77065bdc")
 	)
 	(label "GPIO22"
 		(at 149.86 91.44 0)
@@ -5443,85 +5443,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 241.3 77.47 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2300a55e-ca0d-43e2-adbd-8df6a517d8ab")
-		(property "Reference" "#PWR038"
-			(at 237.49 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 245.11 77.4699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 241.3 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b026c915-564d-4e6d-93d5-875b871c1b21")
-		)
-		(instances
-			(project "wifi"
-				(path "/cab5c3ac-9821-4913-9e7a-554539370212"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 204.47 33.02 0)
 		(unit 1)
@@ -6256,6 +6177,85 @@
 			(project "wifi"
 				(path "/cab5c3ac-9821-4913-9e7a-554539370212"
 					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 238.76 85.09 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "405c56e4-45c7-435d-a97a-2c176d51c43d")
+		(property "Reference" "#PWR038"
+			(at 234.95 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 242.57 85.0899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 238.76 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "584d9c9e-3f27-4a74-92db-7e397b468378")
+		)
+		(instances
+			(project "wifi"
+				(path "/cab5c3ac-9821-4913-9e7a-554539370212"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -8010,85 +8010,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 241.3 80.01 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "94ea483a-c1dd-43c4-9988-af1840cf7f2e")
-		(property "Reference" "#PWR029"
-			(at 247.65 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 245.11 80.0099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "679be688-8969-4f49-a10e-653b8cef76dd")
-		)
-		(instances
-			(project "wifi"
-				(path "/cab5c3ac-9821-4913-9e7a-554539370212"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 29.21 54.61 0)
 		(unit 1)
 		(body_style 1)
@@ -8878,6 +8799,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 238.76 82.55 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae21901a-4d9e-4817-9082-ad76bbf3aee4")
+		(property "Reference" "#PWR029"
+			(at 245.11 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 242.57 82.5499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 238.76 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ebd2f016-ba1d-41af-a00e-185a82e822d3")
+		)
+		(instances
+			(project "wifi"
+				(path "/cab5c3ac-9821-4913-9e7a-554539370212"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 240.03 31.75 0)
 		(unit 1)
@@ -9355,7 +9355,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x07")
-		(at 229.87 85.09 180)
+		(at 229.87 85.09 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9363,10 +9364,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c3202f7e-5afe-46c3-a79f-807b3abc4a81")
 		(property "Reference" "J2-Right1"
-			(at 229.87 71.12 0)
+			(at 229.616 71.882 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9376,7 +9376,7 @@
 			)
 		)
 		(property "Value" "Conn_01x07"
-			(at 229.87 73.66 0)
+			(at 228.854 74.168 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
